@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&display=swap");
+
+:root {
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.main_container {
+  display: flex;
+  /* border: 1px solid black; */
+  /* height: calc(100vh - 7px); */
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: end;
+}
